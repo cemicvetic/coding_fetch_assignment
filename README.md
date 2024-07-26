@@ -36,5 +36,30 @@ To run my solution, use:
 
 ```bash
 npx cypress run
+ ```
+
+## 🧩 Tests
+
+should open the SDET Challenge Site: Make sure the title and game board are loaded correctly.
+
+find out which three bars contain the fake: Creates a simulation to find out which three bars are fake.
+
+should get rid of 2 out of 3 suspect bars: Pull the remaining suspect bars for further weighing.
+
+should guess the fake golden bar: Use the previous results to guess the fake golden bar.
+
+## 🛠️ Custom Commands
+
+cy.enterBowls(leftValues, rightValues): Fills in left and right values.
+
+cy.clickWeigh(): This clicks the weigh button.
+
+cy.resetBowls(): Resets the bowls.
+
+cy.getWeighingResult(nthResult): Gets the nth weighing result.
+
+cy.getResultOperator(): Returns the operator.
+
+cy.clickFakeGoldenBar(fakeGoldenBar): Clicks the fake golden bar.
 
 
