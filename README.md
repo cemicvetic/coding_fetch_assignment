@@ -15,5 +15,19 @@ You can install Node.js by visiting the [official Node.js website](https://nodej
 
 1. Clone this repository to your local machine using Git:
 
-```bash
 git clone https://github.com/cemicvetic/coding_fetch_assignment.git
+
+
+2. Navigate to the project directory:
+
+    cd coding_fetch_assignment
+
+3. Install the project dependencies:
+
+    npm install
+
+## Running the Tests
+
+You can run my solution using:
+
+npx cypress run
