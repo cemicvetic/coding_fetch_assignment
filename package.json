@@ -1,0 +1,17 @@
+{
+  "name": "coding_fetch_assigment",
+  "version": "1.0.0",
+  "description": "Take-home coding challenge for an QA Automation at Fetch",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open --e2e --browser chrome",
+    "prettier": "npx prettier . --write",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Svetlana Komarova",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
